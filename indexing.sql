@@ -47,4 +47,13 @@
 
 
 -- 4. Run a query to list all fields from all `car_models` in years between `2010` and `2015`, and note the time somewhere (should have 78840 rows)
+-- TIME: 98.498 ms
+-- SELECT *
+-- FROM car_models
+--   WHERE car_models.year >= 2010 AND car_models.year <= 2015
+
 -- 5. Run a query to list all fields from all `car_models` in the year of `2010`, and note the time somewhere (should have 13140 rows)
+-- TIME: 44.966 ms
+-- SELECT *
+-- FROM car_models
+--  WHERE car_models.year = 2010

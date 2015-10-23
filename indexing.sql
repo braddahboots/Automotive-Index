@@ -95,3 +95,16 @@
 -- SELECT *
 -- FROM car_models
 --   WHERE car_models.year = 2010
+
+-- ## Indexing on table create
+
+-- 1. Add your recorded indexing statements to the `scripts/car_models.sql`
+
+-- 2. Delete the `car_models` table
+DROP TABLE car_models;
+
+-- 3. Run the provided `scripts/car_models.sql` script on the `indexed_cars` database
+
+
+-- 4. Run the provided `scripts/car_model_data.sql` script on the `indexed_cars` database **10 times**
+--    _there should be **223380** rows in `car_models`_
